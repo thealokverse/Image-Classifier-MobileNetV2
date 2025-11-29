@@ -45,9 +45,6 @@ python train.py --data_dir ./data --epochs 3 --batch_size 8 --output_model best_
 
 Place your dataset inside the data/ folder.
 
-# 📸 Sample Outputs
-
-(Add your Grad-CAM images here)
 
 # 🛠 Tech Stack
 
