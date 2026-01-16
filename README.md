@@ -7,7 +7,7 @@ Upload an image → get a prediction → see a heatmap showing what the model fo
 
 Built entirely on a simple laptop, beginner-friendly, and fully open-source.
 
-# 🔍 Features
+# Features
 
 -MobileNetV2 image classifier (fast + lightweight)
 
@@ -21,32 +21,7 @@ Built entirely on a simple laptop, beginner-friendly, and fully open-source.
 
 -Beginner-friendly project structure
 
-# 🚀 Run the App
-1. Install dependencies
-pip install -r requirements.txt
-
-2. Launch the Gradio interface
-python app.py --model_path best_model.pth
-
-
-It will open at:
-
-http://127.0.0.1:7860
-
-
-Upload a flower image → view predictions + Grad-CAM overlay.
-
-# 🎓 Train the Model (Optional)
-
-If you want to retrain:
-
-python train.py --data_dir ./data --epochs 3 --batch_size 8 --output_model best_model.pth
-
-
-Place your dataset inside the data/ folder.
-
-
-# 🛠 Tech Stack
+# Tech Stack
 
 -Python
 
@@ -60,7 +35,7 @@ Place your dataset inside the data/ folder.
 
 -Matplotlib
 
-# ⭐ Why This Project?
+# Why This Project?
 
 This was built to understand:
 
